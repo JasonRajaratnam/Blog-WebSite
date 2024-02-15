@@ -1,1 +1,7 @@
 web: java -jar myapp.jar
+{
+  "buildpacks": [
+    { "url": "https://github.com/paketo-buildpacks/procfile" },
+    { "url": "https://github.com/heroku/heroku-buildpack-some-other" }
+  ]
+}
